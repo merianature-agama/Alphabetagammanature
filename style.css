@@ -60,6 +60,42 @@ h6 {color: darkblue; width: 60px; text-align: center;}
 h7 {color: darkblue; width: 60px; text-align: center;}
 h8 {color: darkblue; width: 600px; text-align: center;}
 
-p {color:lightblue;
+p {color:darkblue;
 font-size: 70px;
 text-align: center;}
+
+/* Lecteur vidéo */
+#lecteur {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    margin: 20px auto;
+    background: black;
+    border-radius: 10px;
+    object-fit: contain;
+}
+
+/* Boutons vidéo */
+button {
+    padding: 12px 18px;
+    margin: 5px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Téléphones */
+@media screen and (max-width: 600px) {
+    #lecteur {
+        width: 100%;
+        max-width: 100%;
+        aspect-ratio: 16 / 9;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 10px 12px;
+    }
+}
