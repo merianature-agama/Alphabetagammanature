@@ -1,0 +1,97 @@
+
+
+<!DOCTYPE html>
+<html lang="fr">
+    
+ <head>
+    <meta charset="UTF-8">
+    <title>ALPHA BETA GAMMA & MUSICA></title>
+    <link rel="stylesheet"
+    href="style2.css">
+ </head>
+
+      <h1>BIENVENUE SUR MON SITE D'ARTS ET MÉTIERS
+       </h1> 
+
+      <p>TENDANCES MUSICALES ET PROFESSIONNELLES</p>
+
+       <h2 ><img src="Images/RAINBOW.jpeg" width="100%" height="150px"></h2>
+
+    <script src="script.js">
+
+    function afficher(page) {let contenu = document.getElementById("contenu");
+
+        if (page=== "accueil") { contenu.innerHTML = "<h1>Bienvenue sur mon site d'arts et métiers</h1><p>Tendances musicales et professionnelles</p>"; } 
+        
+        else if (page === "videos") { contenu.innerHTML = "<h4>Vidéos</h4>video controls><source src='Video/VIDEO 1.mp4' type='video/mp4'></video><video controls><source src='Video/VIDEO 2.mp4' type='video/mp4'></video><video controls><source src='Video/VIDEO 3.mp4' type='video/mp4'></video><video controls><source src='Video/VIDEO 4.mp4' type='video/mp4'></video>"; } 
+        
+        else if (page === "audio") {contenu.innerHTML = "<h4>Audio</h4><audio controls><source src='AUDIO/AUDIO1.mp3' type='audio/mpeg'></audio><audio controls><source src='AUDIO/LA_MUSICA.mp3' type='audio/mpeg'></audio><audio controls><source src='AUDIO/FREEDOM.mp3' type='audio/mpeg'></audio><audio controls><source src='AUDIO/SACRIFICE.mp3' type='audio/mpeg'></audio>"; } 
+       
+        else if (page === "photos") {contenu.innerHTML = "<h2>Photos></h2><img src='Images/RAINBOW.jpeg' width='300' height='200'><img src='Images/RAINBOW.jpeg' width='300' height='200'><img src='Images/RAINBOW.jpeg' width='300' height='200'><img src='Images/RAINBOW.jpeg' width='300' height='200'>"; } 
+        
+        else if (page === "contact") {contenu.innerHTML = "<h8>Contact</h8><p>Pour nous contacter</p>";
+              }
+    }     </script>
+
+       
+  <body>
+  <div class="conteneur">
+
+    <div class="gauche">
+
+      <h3>MENU <br>
+        <br>
+
+        Accueil <br>
+        <br>
+
+      Activités <br>
+    </h3> </div>
+      
+
+    <div class="milieu">
+      <div id="contenu">>
+      <h4>
+              <video controls>
+          <source src="Video/VIDEO 1.mp4" type="video/mp4"></video>
+     
+          <section>
+              <audio controls>
+            <source src="AUDIO/AUDIO1.mp3" type="audio/mp3">
+           </audio> </section>
+
+              <video controls>
+           <source src="Video/VIDEO 2.mp4" type="video/mp4"></video>
+          
+             <section>
+              <audio controls>
+            <source src="AUDIO/LA_MUSICA.mp3" type="audio/mp3">
+          </audio> </section>
+
+                <video controls>
+              <source src="Video/VIDEO 3.mp4" type="video/mp4"></video>
+        
+              <section>
+                <audio controls>
+            <source src="AUDIO/FREEDOM.mp3" type="audio/mp3">
+            </audio> </section>
+
+              <video controls>
+            <source src="Video/VIDEO 4.mp4" type="video/mp4"></video>
+          
+              <section>
+                <audio controls>
+              <source src="AUDIO/SACRIFICE.mp3" type="audio/mp3">
+              </audio> </section>
+       </h4></div>
+       </div>
+
+       <div class="droite">
+         <h5>Nos contacts:<br>
+           +241 00 00 00 00<br>
+           +241 00 00 00 00<br>
+         </h5>
+        </div>
+      </div>
+      </body>
+     </html>
