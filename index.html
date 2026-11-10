@@ -26,7 +26,7 @@ tu
         
         else if (page === "Video") { contenu.innerHTML = "<h4>Video<video controls><source src='Video/VIDEO 1.mp4' type='video/mp4'></video><video controls><source src='Video/VIDEO 2.mp4' type='video/mp4'></video><video controls><source src='Video/VIDEO 3.mp4' type='video/mp4'></video><video controls><source src='Video/VIDEO 4.mp4' type='video/mp4'></video><video controls><source src='Video/VIDEO 5.mp5 type='video/mp4'></video></h4>"; } 
         
-        else if (page === "Audio") {contenu.innerHTML = "<h4>Audio<audio controls><source src='AUDIO/AUDIO 1.mp3' type='audio/mpeg'></audio><audio controls><source src='AUDIO/AUDIO 2.mp3' type='audio/mpeg'></audio><audio controls><source src='AUDIO/AUDIO 3.mp3' type='audio/mpeg'></audio><audio controls><source src='AUDIO/AUDIO 4.mp3' type='audio/mpeg'><audio controls><source='Audio/AUDIO 5.mp3' type='audio/mpeg'</audio></h4>"; } 
+        else if (page === "Audio") {contenu.innerHTML = "<h4>Audio<audio controls><source src='AUDIO/AUDIO 1.mp3' type='audio/mpeg'></audio><audio controls><source src='Audio/AUDIO 2.mp3' type='audio/mpeg'></audio><audio controls><source src='Audio/AUDIO 3.mp3' type='audio/mpeg'></audio><audio controls><source src='Audio/AUDIO 4.mp3' type='audio/mpeg'><audio controls><source='Audio/AUDIO 5.mp3' type='audio/mpeg'</audio></h4>"; } 
        
         else if (page === "Images") {contenu.innerHTML = "<h2>Images></h2><img src='Images/RAINBOW.jpeg' width='100%' height='15px'><img src='Images/Activités.jpg' width='60px' height='60px'><img src='Images/Nos contacts.jpg' width='60px' height='60px'>"; } 
         
@@ -57,10 +57,10 @@ tu
            
            <br>
   
-          <button onclick="ouvrirVideo()('Video/*.mp4')">Video ()</button><br>
+          <button onclick="ouvrir('Video/VIDEO 4.mp4')">Video ()</button><br>
         <br>
           
-          <button onclick="ouvrirAudio()('Audio/*.mp3')">Audio()</button><br>
+          <button onclick="ouvrir('Audio/AUDIO.mp3')">Audio()</button><br>
             <br>
       </h3> </div>
       
