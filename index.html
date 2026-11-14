@@ -9,35 +9,35 @@
     href="style.css">
  </head>
 
-      <h1>BIENVENUE SUR LE SITE D'ARTS ET MÉTIERS DE MERIANATURE
+      <h1>BIENVENUE SUR LE SITE D'ARTS ET MÉTIERS DE MERIANATURE<br>WELCOME TO MERIANATURE ARTS AND CRAFTS SITE
        </h1> 
 
-      <p>TENDANCES MUSICALES PROFESSIONNELLES & SPIRITUELLES</p>
+      <p>TENDANCES ARTISTIQUES PROFESSIONNELLES & CULTURELLES<br>ARTISTIC PROFESSIONAL AND CULTURAL TRENDS</p>
 
-       <h2 ><img src="Images/RAINBOW.jpeg" width="100%" height="150px"></h2>
+       <h2 ><img src="Images/RAINBOW.jpeg" width="100%" height="100px"></h2>
 
     <script>
 
        function ouvrir(page) {document.getElementById("contenu").innerHTML=page;
 
-        if (page=== "Accueil - Home") { contenu.innerHTML = "<h1>Bienvenue sur mon site d'arts et métiers</h1><p>Tendances musicales professionnelles & spirituelles</p>"; } 
+        if (page=== "Accueil - Home") { contenu.innerHTML = "<h1>Bienvenue sur le site d'arts et métiers<br>Welcome to MERIANATURE Arts and Crafts site</h1><p>Tendances artistiques professionnelles & culturelles<br>Artistic professional and cultural trends</p>"; } 
         
-        else if (page === "Video") { contenu.innerHTML = "<h4>Video</h4><video controls><source src='Video/VIDEO 1.mp4' type='video/mp4'></video><video controls><source src='Video/VIDEO 2.mp4' type='video/mp4'></video><video controls><source src='Video/VIDEO 3.mp4' type='video/mp4'></video><video controls><source src='Video/VIDEO 4.mp4' type='video/mp4'></video><video controls><source src='Video/VIDEO 5.mp4' type='video/mp4'></video>";} 
+        else if (page === "Video") { conteúdo.innerHTML = "<h4>Video</h4><video controls><source src='Video/VIDEO 1.mp4' type='video/mp4'></video><video controls><source src='Video/VIDEO 2.mp4' type='video/mp4'></video><video controls><source src='Video/VIDEO 3.mp4' type='video/mp4'></video><video controls><source src='Video/VIDEO 4.mp4' type='video/mp4'></video><video controls><source src='Video/VIDEO 5.mp4' type='video/mp4'></video>";} 
         
         else if (page === "Audio") {contenu.innerHTML = "<h4>Audio</h4><audio controls><source src='Audio/AUDIO 1.mp3' type='audio/mpeg'></audio><audio controls><source src='Audio/AUDIO 2.mp3' type='audio/mpeg'></audio><audio controls><source src='Audio/AUDIO 3.mp3' type='audio/mpeg'></audio><audio controls><source src='Audio/AUDIO 4.mp3' type='audio/mpeg'></audio><audio controls><source src='Audio/AUDIO 5.mp3 type='audio/mpeg'></audio>"; } 
        
         else if (page === "Images") {contenu.innerHTML = "<h2>Images></h2><img src='Images/RAINBOW.jpeg' width='300' height='200'><img src='Images/Activités.jpeg' width='60' height='60'><img src='Images/Nos contacts.jpeg' width='60' height='60'>"; } 
         
-        else if (page === "Nos contacts - Contact") {contenu.innerHTML = "<h6>Nos Contacts +241 62 97 60 01<br>+241 74 15 22 32<br>E mail merianature@gmail.com</h6>";}
+        else if (page === "Nos contacts - Contact") {contenu.innerHTML = "<h6>Nos Contacts - Contact +241 62 97 60 01<br>+241 74 15 22 32<br>E mail merianature@gmail.com</h6>";}
         
-        else if (page === "Activités - News") {contenu.innerHTML ="<h6>Activités<br><br><br>Assistance spirituelle<br>Retour d'affection<br>Protection et désenvoûtement<br>Conception/Grossesse pour femmes ou couples en difficultés<br><br><br><br>L'esprit est PLUS PUISSANT QUE la chair</p><br>Revalorisation du patrimoine culturel et des cultes ancestraux<br><br></h6>";}
+        else if (page === "Activités - News") {contenu.innerHTML ="<h6>Activités - News<br><br><br>Assistance spirituelle<br>Retour d'affection<br>Protection et désenvoûtement<br>Conception/Grossesse<br>Revalorisation de nos patrimoines culturels et des cultes ancestraux<br><br>Spiritual Assitance<br>Love reconciliation<br>Protection and spell breaking<br>Pregnancy conception solutions<br>Restoring our cultural heritage and ancestral worships<br><br><br>L'esprit est PLUS PUISSANT QUE la chair<br> Spirit is MORE POWERFUL than Flesh</p></h6>";}
               
-        else if (page === "Retour en haut - Scroll to top") {contenu.innerHTML="<h1>Bienvenue sur le site d'arts et métiers de MERIANATURE</h1><p>Tendances musicales professionnelles & spirituelles</p>";}
+        else if (page === "Retour en haut - Scroll to top") {contenu.innerHTML="<h1>Bienvenue sur le site d'arts et métiers<br>Welcome to MERIANATURE Arts and Crafts site</h1><p>Tendances artistiques professionnelles & culturelles<br>Artistic professional and cultural trends</p>"; } 
    
           }
            </script>
 
-       
+                  
   <body>
   <div class="conteneur">
 
@@ -74,7 +74,7 @@
     <div class="milieu">
       <div id="contenu">>
         <h4>
-        <video id="lecteurVideo" controls width="60px" style="max-width: 100%" height="auto">Votre navigateur ne supporte pas la vidéo.</video>
+         <video id="lecteurVideo" controls width="100%" style="max-width: 100%" height="auto">Votre navigateur ne supporte pas la vidéo.</video>
  
 <script>
           function ouvrirVideo(numero){let lecteur = document.getElementById("lecteur");
@@ -84,7 +84,7 @@
               lecteur.play();} 
               </script>
           
-        <audio id="lecteurAudio" controls width="100%" height="auto">Votre navigateur ne supporte pas l'élément audio.</audio> 
+        <audio id="lecteurAudio" controls width="100%" height="auto">Votre navigateur ne supporte pas l'élément audio</audio> 
             
         <script>
           function ouvrirAudio(numero) {lecteur = document.getElementById("lecteur");
@@ -106,7 +106,7 @@
      
           <section>
               <audio controls preload="metadata">
-            <source src="Audio/AUDIO1.mp3" type="audio/mpeg">Votre navigateur ne prend pas en charge l'élément audio.
+            <source src="Audio/AUDIO 1.mp3" type="audio/mpeg">Votre navigateur ne prend pas en charge l'élément audio.
            </audio> </section>
 
               <video controls preload="metadata" width="100%" height="auto"> 
@@ -133,7 +133,8 @@
               <source src="Audio/AUDIO 4.mp3" type="audio/mpeg">Votre navigateur ne prend pas en charge l'élément audio.
               </audio> </section>
 
-          <video controls preload="metadata">
+          <video controls preload="metadata" width="100%" height="auto"> 
+          <source src="Video/VIDEO 5.mp4" type="video/mp4">
               <source src="Video/VIDEO 5.mp4" type="video/mp4">Votre navigateur ne prend pas en charge la lecture de video</video>
 
           <section>
